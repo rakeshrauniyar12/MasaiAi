@@ -1,0 +1,50 @@
+.portfolio-builder {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .portfolio-builder h2 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  .react-tabs__tab-list {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+  }
+  
+  .react-tabs__tab {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+  }
+  
+  .react-tabs__tab--selected {
+    background: white;
+    border-color: #ddd;
+    border-bottom: 1px solid white;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    color: var(--primary-color);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-links-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .theme-preview {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+  }

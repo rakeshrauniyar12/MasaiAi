@@ -1,0 +1,49 @@
+.case-study-builder {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .case-study-list {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .case-study-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #eee;
+    margin-bottom: 0.5rem;
+    border-radius: var(--border-radius);
+  }
+  
+  .media-item, .timeline-item {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .media-item input, .timeline-item input {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .metric-item, .testimonial-item {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+  }
+  
+  .testimonial-item textarea {
+    min-height: 100px;
+  }
